@@ -11,7 +11,7 @@ services:
       - WORDPRESS_DB_PASSWORD=wordpress
       - WORDPRESS_DB_NAME=wordpress
     volumes:
-      - ./:/var/www/html
+      - ./wordpress:/var/www/html
       - ./personal-gmail-sender:/var/www/html/wp-content/plugins/personal-gmail-sender
     depends_on:
       - db
