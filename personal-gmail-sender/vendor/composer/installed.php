@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '2.0.0',
+        'version' => '2.0.0.0',
+        'type' => 'plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'jhoacar/numbers_analyzer_worpdress_plugin',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'eftec/bladeone' => array(
+            'pretty_version' => '4.7.1',
+            'version' => '4.7.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../eftec/bladeone',
+            'aliases' => array(),
+            'reference' => 'b912e9f060aaa999c0ac2fcf4b40f7a8e6cd66c0',
+            'dev_requirement' => false,
+        ),
+        'jhoacar/numbers_analyzer_worpdress_plugin' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'yahnis-elsts/plugin-update-checker' => array(
+            'pretty_version' => 'v5.0',
+            'version' => '5.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yahnis-elsts/plugin-update-checker',
+            'aliases' => array(),
+            'reference' => '81be284da76f12c8751b477b2a0fa44364d26f84',
+            'dev_requirement' => false,
+        ),
+    ),
+);
