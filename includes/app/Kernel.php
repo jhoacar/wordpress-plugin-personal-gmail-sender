@@ -125,8 +125,9 @@ class Kernel
         $classes = ClassFinder::getClassesInNamespace(PERSONAL_GMAIL_SENDER_PLUGIN_DIR, $namespaceComponents);
         foreach ($classes as $class) {
             $component = new $class();
-            if (method_exists($component, 'setup'))
+            if (method_exists($component, 'setup')) {
                 $component->setup();
+            }
         }
     }
 
