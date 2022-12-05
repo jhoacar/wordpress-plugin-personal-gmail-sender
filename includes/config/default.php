@@ -3,39 +3,21 @@
 return [
     /*
     |--------------------------------------------------------------------------
-    | Numbers Analyzer Domain
+    | Personal Gmail Sender Email
     |--------------------------------------------------------------------------
-    |
-    | This Domain is used to communicate with Laravel App
-    |
     */
-    'domain' => 'na2.mikeferry.com',
+    'email' => '',
     /*
     |--------------------------------------------------------------------------
-    | Numbers Analyzer Token
+    | Personal Gmail Sender Password
     |--------------------------------------------------------------------------
-    |
-    | This Token is used to communicate with Laravel App
-    |
     */
-    'token' => 'ZJ1p5KA6ixBN8cbYesO6',
+    'password' => '',
     /*
     |--------------------------------------------------------------------------
-    | Numbers Analyzer Class Link
+    | Personal Gmail Sender Checked
     |--------------------------------------------------------------------------
-    |
-    | This Class is used to create a link in WordPress Application
-    |
     */
-    'class_link' => 'numbers_analyzer_link',
-    /*
-    |--------------------------------------------------------------------------
-    | Numbers Analyzer Button Content
-    |--------------------------------------------------------------------------
-    |
-    | This Content is used to show the link in WordPress Application
-    |
-    */
-    'button_content' => 'Numbers Analyzer',
+    'checked' => false,
 
 ];

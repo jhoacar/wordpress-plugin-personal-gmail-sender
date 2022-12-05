@@ -6,18 +6,14 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitedc06f3b602760dc0273b32df16c864d
 {
-    public static $files = array (
-        '5ff2501974ebd86c0be698ddfca6451e' => __DIR__ . '/..' . '/yahnis-elsts/plugin-update-checker/load-v5p0.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'e' => 
         array (
             'eftec\\bladeone\\' => 15,
         ),
-        'N' => 
+        'P' => 
         array (
-            'NumbersAnalyzerPlugin\\' => 22,
+            'PersonalGmailSender\\' => 20,
         ),
     );
 
@@ -26,7 +22,7 @@ class ComposerStaticInitedc06f3b602760dc0273b32df16c864d
         array (
             0 => __DIR__ . '/..' . '/eftec/bladeone/lib',
         ),
-        'NumbersAnalyzerPlugin\\' => 
+        'PersonalGmailSender\\' => 
         array (
             0 => __DIR__ . '/../..' . '/includes/app',
         ),

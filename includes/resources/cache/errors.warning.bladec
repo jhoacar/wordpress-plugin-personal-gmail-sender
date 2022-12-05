@@ -1,7 +1,7 @@
-<div style="background-color:#fcff94; color:white;padding:0.5rem;border: solid 1px black;line-height: 2rem">
+<div style="border: solid 1px yellow;padding:1rem;">
  <h3 style="color:black;">
  <span style="font-weight:bold">
- Numbers Analyzer Plugin Warning:
+ Personal Gmail Sender Plugin Warning:
  </span>
  <span style="font-weight:normal">
  <?php echo $error; ?>

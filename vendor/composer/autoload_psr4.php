@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'eftec\\bladeone\\' => array($vendorDir . '/eftec/bladeone/lib'),
-    'NumbersAnalyzerPlugin\\' => array($baseDir . '/includes/app'),
+    'PersonalGmailSender\\' => array($baseDir . '/includes/app'),
 );

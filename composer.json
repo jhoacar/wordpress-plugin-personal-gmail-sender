@@ -1,43 +1,26 @@
 {
-    "name": "jhoacar/numbers_analyzer_worpdress_plugin",
-    "description": "WordPress implementation for Laravel Integration",
-    "type": "plugin",
-    "plugin_name": "Numbers Analyzer (integration)",
-    "version": "1.2.1",
-    "slug": "numbers_analyzer",
-    "last_updated": "2022-12-03 02:10:00",
-    "tested": "5.8",
-    "sections": {
-        "description": "This plugin create communication with Numbers Analyzer app",
-        "installation": "Click the activate button and that's it.",
-        "changelog": "<h4>1.0 -  1 august 2021</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
-    },
-    "banners": {
-        "low": "https://rudrastyh.com/wp-content/uploads/updater/banner-772x250.jpg",
-        "high": "https://rudrastyh.com/wp-content/uploads/updater/banner-1544x500.jpg"
-    },
-    "authors": [
-        {
-            "name": "Jhoan Carrero",
-            "email": "carrerojhoan@gmail.com",
-            "homepage": "https://github.com/jhoacar",
-            "role": "Lead"
-        }
-    ],
-    "license": "MIT",
-    "require": {
-        "php": "^7.1||^8.0",
-        "eftec/bladeone": "^4.7",
-        "yahnis-elsts/plugin-update-checker": "^5.0"
-    },
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "autoload": {
-        "psr-4": {
-            "NumbersAnalyzerPlugin\\": "includes/app/"
-        }
-    },
-    "scripts": {}
+  "name": "jhoacar/plugin-personal-gmail-sender",
+  "authors": [
+    {
+      "name": "Jhoan Carrero",
+      "email": "carrerojhoan@gmail.com",
+      "homepage": "https://github.com/jhoacar",
+      "role": "Lead"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.1||^8.0",
+    "eftec/bladeone": "^4.7"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "PersonalGmailSender\\": "includes/app/"
+    }
+  },
+  "scripts": {}
 }
